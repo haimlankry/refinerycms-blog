@@ -1,0 +1,167 @@
+he:
+  refinery:
+    plugins:
+      refinerycms_blog:
+        title: מאמרים
+    blog:
+      admin:
+        categories:
+          category:
+            edit: ערוך קטגוריה
+            delete: מחק קטגוריה לצמיתות
+          index:
+            no_items_yet: 'אין קטגוריות עדיין. לחץ "%{create}" להוספת קטגוריה ראשונה.'
+        comments:
+          approved: 'התגובה מ "%{author}" אושרה.'
+          comment:
+            view_live_html: 'הצג תגובה זו <br/><em>(נפתח בחלון חדש)</em>'
+            read: קרא תגובה זו
+            reject: דחה תגובה זו
+            approve: אשר תגובה זו
+          rejected: 'התגובה מ "%{author}" נדחתה.'
+          index:
+            no_items_yet: 'אין תגובות %{type}.'
+          show:
+            comment: תגובה
+            blog_post: מאמר
+            from: נכתב ע"י
+            date: נכתב ב
+            message: תגובה
+            details: פרטים
+            age: גיל
+            actions: פעולות
+            back: חזרה לכל התגובות
+            reject: דחה תגובה זו
+            approve: אשר תגובה זו
+        posts:
+          form:
+            advanced_options: הגדרות מתקדמות
+            toggle_advanced_options: לחץ לגישה להגדרות תגיות ותפריטים
+            save_as_draft: שמור כטיוטא
+            published_at: תאריך פרסום
+            custom_url: כתובת מיוחדת
+            custom_url_help: מייצר כתובת למאמר זה במקום שימוש בכותרת.
+            source_url: כתובת מקור
+            source_url_help: שןמר את הכתובת של המקורות למאמר זה.
+            source_url_title: כותרת לכתובת מקור
+            source_url_title_help: כותרת למקור המאמר.
+            author: כותב
+            author_help: קבע איזה משתמש יוצג ככותב המאמר.
+            copy_body: העתק גוף המאמר לתקציר
+            copy_body_help: מעתיק את גוף המאמר לתקציר.  השאר תקציר ריק על מנת שהמערכת תייצר תקציר אוטומטי.
+          index:
+            no_items_yet: 'אין מאמרים עדיין. לחץ "%{create}" להוספת מאמר ראשון.'
+          uncategorized:
+            no_items_yet: 'לא נמצאו מאמרים ללא קטגוריה.'
+          post:
+            view_live_html: 'תצוגה מקדימה <br/><em>(נפתח בחלון חדש)</em>'
+            edit: ערוך מאמר זה
+            delete: מחק מאמר זה לצמיתות
+            draft: טיוטא
+        settings:
+          notification_recipients:
+            value: שלח דיווח ל
+            explanation: 'בכל פעם שגולש מגיב למאמר, המערכת שולחת הודעה שיש תגובה חדשה.'
+            hint: 'כשתגובה חדשה תתקבל, המערכת תשלח הודעת מייל אליך.'
+            example: "הזן כתובות מייל, לדוגמא: jack@work.com, jill@office.com"
+            updated: 'נמענים לדיווחים נקבעו ל: "%{recipients}"'
+        submenu:
+          categories:
+            title: קטגוריות
+            manage: ניהול
+            new: צור קטגוריה חדשה
+          comments:
+            title: תגובות
+            title_with_count: 'תגובות (%{new_count} חדשות)'
+            new: חדש
+            unmoderated: חדש
+            approved: אושר
+            rejected: נדחה
+          posts:
+            title: מאמרים
+            manage: ניהול מאמרים
+            new: צור מאמר חדש
+            uncategorized: מאמרים ללא קטגוריה
+          settings:
+            title: הגדרות
+            moderation: בקרת אישור תגובות
+            update_notified: עדכן מי מקבל דיווחים
+            comments: תגובות
+            teasers: תקצירים
+      comment_mailer:
+        notification:
+          greeting: שלום לך
+          you_recieved_new_comment: קיבלת תגובה חדשה באתר.
+          comment_starts: --- תחילת תגובה ---
+          comment_ends: --- סוף תגובה ---
+          from: מאת
+          email: דואר אלקטרוני
+          message: הודעה
+          closing_line: בברכה
+          ps: 'נ.ב. כל התגובות נשמרות באזור ה "מאמרים" במערכת, תחת תת תפריט "תגובות" אם תרצה לראות אותם מאוחר יותר.'
+      shared:
+        categories:
+          title: קטגוריות
+        rss_feed:
+          title: RSS 
+          subscribe: הרשמה
+        posts:
+          other: מאמרים נוספים
+          created_at: 'נכתב ב %{when}'
+          read_more: קרא עוד
+        comments:
+          singular: תגובה
+          none: אין תגובות
+        archives: ארכיון
+        tags:
+          title: "תגיות"
+      categories:
+        show:
+          no_posts: אין כאן מאמרים עדיין.
+      posts:
+        post:
+          filed_in: תויק ב
+        comment: תגובה
+        comments:
+          by: 'כתב %{who}'
+          time_ago: 'לפני %{time}'
+          thank_you: 'תודה על תגובתך.'
+          thank_you_moderated: 'תודה על תגובתך. התגובה נרשמה למערכת הבקרה ותופיע בהקדם.'
+        index:
+          no_blog_articles_yet: לא נמצאו מאמרים, בדקו שוב מאוחר יותר.
+        show:
+          blog_home: מאמרים
+          comments:
+            title: תגובות
+            add: כתוב תגובה
+          other: מאמרים נוספים
+          filed_in: תיוק ב
+          tagged: תיוג
+          submit: שלח תגובה
+          name: שם
+          email: 'דוא"ל'
+          message: הודעה
+          by: על ידי
+          source: מקור
+        tagged:
+          no_blog_articles_yet: לא נמצאו מאמרים, בדקו שוב מאוחר יותר.
+          posts_tagged: מאמרים מתוייגים
+        archive:
+          blog_archive_for: 'ארכיון ל %{date}'
+          no_blog_articles_posted: 'לא נמצאו מאמרים לתאריך %{date}. בידקו שנית מאוחר יותר.'
+  activerecord:
+    models:
+      refinery/blog/category: קטגוריה
+      refinery/blog/comment: תגובה
+      refinery/blog/post: מאמר
+    attributes:
+      refinery/blog/category:
+        title: כותרת
+      refinery/blog/comment:
+        name: שם
+        email: דואר אלקטרוני
+        message: הודעה
+      refinery/blog/post:
+        title: כותרת
+        body: גוף
+        teaser: תקציר
